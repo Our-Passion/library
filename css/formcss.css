@@ -1,0 +1,62 @@
+
+body{
+    width: 960px;
+    margin:auto;
+    }
+    
+    hr{
+       height: 5px; 
+       background-image: url("./img/hr-img.png");
+    }
+    #ehab{
+        width:10;
+        background-image: url('img/hr-img.png');
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color:black;
+        height:50;
+    }
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+    
+    }
+    header nav a{
+    text-decoration: none;
+      color: black;
+      padding: 10px 20px;
+      text-transform: capitalize;
+      position: relative;
+      transition: all 350ms;
+      background-color: blue;
+      border-color: brown;
+      border-style: solid;
+      border-width: 5px;
+     border-radius: 1px;
+     
+    }
+    #get{
+        display: grid;
+        grid-template-columns: auto auto;
+         gap: 10px;
+    }
+    #par{
+        font-size: large;
+        font-style: italic;
+        color: darkblue;
+    }
+    #img{
+        width: 350;
+        height: 500px;
+        object-fit: cover;
+        border-radius: 360px;
+    }
+    
+    
+    /*header nav a:hover {
+        background-color: #ffd369;
+        color: #222
+      }
+      
