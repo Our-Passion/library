@@ -1,62 +1,150 @@
+*{
+    margin : auto ;
+    font-family: 'Courier New', Courier, monospace;
+}
+header {
+    width : 1024px ;
+    height : 300px ;
+    background-image : url('https://img.freepik.com/free-vector/pink-horizontal-banner-header-isolated-white-background-poster-background-brochure-template_199548-774.jpg?size=626&ext=jpg');
+    background-size: cover ;
+    margin : auto ;
+}
+header a{
+    padding-left: 20px ;
+    cursor :grab ;
+    float : left ;
+    font-size : 20px ;
+    font-weight : bolder ;
+    text-decoration: none ;
+    color : rgb(255, 255, 255) ;
+    padding-right : 30px ;
+    padding-top : 100px ;
+    text-transform:uppercase;
 
+}
+header a:hover {
+    color: rgb(236, 8, 168);
+}
+header h1 {
+    cursor : copy ;
+    padding-top : 10px ;
+    color : rgb(0, 0, 0) ;
+    display: inline-block;
+    font-size: 60px;
+    font-weight : bolder ;
+}
+footer {
+    background-image : url('/img/footer.jpg') ;
+    width : 1024px ;
+    height : 300px ;
+}
+footer section:nth-child(1) {
+    padding-top : 190px ;
+    padding-right : 30px ;
+    float : right ;
+}
+footer section:nth-child(2) {
+display : grid ;
+grid-template-columns: auto auto;
+ padding-top : 150px ;
+}
+footer section a {
+    cursor :grabbing ;
+    letter-spacing: 5px;
+    color: rgb(255, 255, 255);
+    text-decoration : none ;
+    font-weight : bolder ;
+    font-size : 16px ;
+    padding : 10px ;
+}
+footer section a:hover {
+    color: rgb(236, 8, 168);
+}
+footer section img {
+    padding : 10px ;}
 body{
-    width: 960px;
-    margin:auto;
-    }
-    
-    hr{
-       height: 5px; 
-       background-image: url("./img/hr-img.png");
-    }
-    #ehab{
-        width:10;
-        background-image: url('img/hr-img.png');
-        margin-top: 20px;
-        margin-bottom: 20px;
-        color:black;
-        height:50;
-    }
-    header{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 0 20px;
-    
-    }
-    header nav a{
-    text-decoration: none;
-      color: black;
-      padding: 10px 20px;
-      text-transform: capitalize;
-      position: relative;
-      transition: all 350ms;
-      background-color: blue;
-      border-color: brown;
-      border-style: solid;
-      border-width: 5px;
-     border-radius: 1px;
-     
-    }
-    #get{
-        display: grid;
-        grid-template-columns: auto auto;
-         gap: 10px;
-    }
-    #par{
-        font-size: large;
-        font-style: italic;
-        color: darkblue;
-    }
-    #img{
-        width: 350;
-        height: 500px;
-        object-fit: cover;
-        border-radius: 360px;
-    }
-    
-    
-    /*header nav a:hover {
-        background-color: #ffd369;
-        color: #222
-      }
-      
+width:1024px;
+margin:auto;
+}
+main p{
+    font-family: monospace;
+    text-align: center;
+}
+
+fieldset{
+    background-color: blanchedalmond;
+    width: 500px;
+    border-radius: 10px;
+}
+#ehab{
+    width:10;
+    background-image: url('img/hr-img.png');
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:black;
+    height:50;
+}
+input[type=text]{
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+    background-color: blanchedalmond;
+
+}
+select{
+    width: 120px;
+    border-radius:10px;
+    background-color: blanchedalmond;
+
+}
+input[type=number]{
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+    width:120px;
+    background-color: blanchedalmond;
+    }   
+input[type=submit]{
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+    width:270px;
+    background-color: blanchedalmond;
+    font-family: fantasy;
+
+}
+label{
+    font-family: fantasy;
+    font-style: italic;
+}
+input[type=submit]:hover{
+background-color:green;}
+ legend{
+     font-family: fantasy;}
+ 
+
+#get{
+    display: grid;
+    grid-template-columns: auto auto;
+     gap: 10px;
+}
+#par{
+    font-size: large;
+    font-style: italic;
+    color: darkblue;
+}
+#img{
+    width: 350;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 360px;
+}
+main{margin-top: 50px;
+
+}
+
+/*header nav a:hover {
+    background-color: #ffd369;
+    color: #222
+  }
+  
