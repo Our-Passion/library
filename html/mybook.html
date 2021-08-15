@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header></header>
+    <main>
+   <div class="container">
+       <div class="banner">
+           <div class="left">
+               <div class="content">
+                   <span>Book</span>
+                   <span>Library</span>
+               </div>
+           </div>
+           <div class="right">
+               <div class="content">
+                   <span class="Tot-Books"></span>
+                   <span>Books</span>
+               </div>
+           </div>
+       </div>
+    <div class="NewBook">
+        <button class="new-book">New book</button>
+    </div>
+    <div class="back"></div>
+</div>
+
+
+<div id="modal-form" class="modal">
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">×</span>
+        <h2>Add new book</h2>
+      </div> 
+      <div class="modal-body">
+        <form id="newBookForm">
+            <label for="booktitle" class="form-label">Book title:</label>
+            <br>
+            <input type="text" name="booktitle" id="booktitle" class="form-input" autocomplete="off">
+            <br>
+            <label for="bookAuthor" class="form-label">Book author </label>
+            <br>
+            <input type="text" name="bookAuthor" id="bookAuthor" class="form-input" autocomplete="off">
+            <br>
+            <input type="submit" value="Add book" class="Add-button">
+            <input type="submit" value="Remove book" class="Remove-button">
+        </form>
+    </div>
+</div>
+
+    </main>
+</body>
+</html>
