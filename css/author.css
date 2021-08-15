@@ -1,50 +1,197 @@
 
+*{
+    margin : auto ;
+    font-family: 'Courier New', Courier, monospace;
+}
+header {
+    width : 1024px ;
+    height : 300px ;
+    background-image : url('https://img.freepik.com/free-vector/pink-horizontal-banner-header-isolated-white-background-poster-background-brochure-template_199548-774.jpg?size=626&ext=jpg');
+    background-size: cover ;
+    margin : auto ;
+}
+header a{
+    padding-left: 20px ;
+    cursor :grab ;
+    float : left ;
+    font-size : 20px ;
+    font-weight : bolder ;
+    text-decoration: none ;
+    color : rgb(255, 255, 255) ;
+    padding-right : 30px ;
+    padding-top : 100px ;
+}
+header a:hover {
+    color: rgb(236, 8, 168);
+}
+header h1 {
+    cursor : copy ;
+    padding-top : 10px ;
+    color : rgb(0, 0, 0) ;
+    display: inline-block;
+    font-size: 60px;
+    font-weight : bolder ;
+}
+footer {
+    background-image : url('/img/footer.jpg') ;
+    width : 1024px ;
+    height : 300px ;
+}
+footer section:nth-child(1) {
+    padding-top : 190px ;
+    padding-right : 30px ;
+    float : right ;
+}
+footer section:nth-child(2) {
+display : grid ;
+grid-template-columns: auto auto;
+ padding-top : 150px ;
+}
+footer section a {
+    cursor :grabbing ;
+    letter-spacing: 5px;
+    color: rgb(255, 255, 255);
+    text-decoration : none ;
+    font-weight : bolder ;
+    font-size : 16px ;
+    padding : 10px ;
+}
+footer section a:hover {
+    color: rgb(236, 8, 168);
+}
+footer section img {
+    padding : 10px ;
+}
+
+
 /******************************************/
 /******************************************/
 /******************************************/
-main {
-    padding-top : 20px ;
-    width : 960px ;
+.authorDetails {
+    width : 1024px ;
     display : grid ;
     grid-template-columns: auto auto ;
-    gap : 20px ;
+    gap : 50px ;
+}
+main h3 {
+    text-align: center;
+    font-size: 25px ;
+    font-weight : bolder ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 60px ;
+    color : rgb(0, 0, 0) ;
+}
+fieldset{
+    text-align: center;
+    width : 350px ;
+    background-color: rgba(255, 255, 255, 0.6);
+    font-weight : bolder ;
+    height : 120px ;
+    color : rgb(0, 0, 0) ;
+    border: 5px solid rgb(0, 0, 0);
+    background-color: rgb(0,0,0,0.2);
+
+}
+main form{
+    cursor : copy ;
+    font-size: 25px ;
+    font-weight : bolder ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main select {
+    width : 200px ;
+    height : 25px ;
+    font-size : 14px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.searchS{
+    text-align: center;
+    padding-bottom: 20px ;
+}
+.searchS p {
+    font-weight : bolder ;
+    font-size: 25px ;
+    color : rgb(145, 151, 52) ;
+    padding-bottom : 50px ;
+    text-decoration:underline;
+}
+.searchS h2 {
+    color : rgb(0, 0, 0) ;
+    padding-top : 50px ;
+    font-size : 20px ;
 }
 p {
     cursor:copy;
-    letter-spacing: 2px;
-    color : rgb(3, 3, 3) ;
-    font-size : 23px ;
+    letter-spacing: 3px;
+    color : rgb(0, 0, 0) ;
+    font-size : 17px ;
     font-weight :bolder ;
+    padding : 20px ;
     font-family:'Times New Roman', Times, serif;
 }
-
 main div {
-    border : 4px solid black ;
     width : 450px ;
     text-align: center;
-    background-color: transparent ;
+    
 }
-/*
-.two {
-    border : 4px solid black ;
-    width : 450px ;
-    text-align: center;
-}
-.three {
-    border : 4px solid black ;
-    width : 450px ;
-    text-align: center;
-}*/
-button{
-    font-size: 20px ;
-    font-weight : bolder ;
-    border : 5px solid black ;
-    background-color: tomato;
+.search {
+    cursor :zoom-in ;
     width : 200px ;
+    height : 27px ;
+}
+main form select {
+    background-color: rgba(255, 255, 255, 0.6) ;
+    color : rgb(0, 0, 0) ;
+}
+button{
+    font-size: 17px ;
+    font-weight : bolder ;
+    background-color: rgba(255, 255, 255, 0.6);
+    color : rgb(0, 0, 0) ;
+    width : 120px ;
     text-align: center;
-    cursor:nw-resize;
+    cursor:nw-resize;    
 }
 .one :hover{
-    color: rgb(236, 8, 168);
-
+    color: rgb(252, 5, 5) ;
 }
+main form :hover{
+color : rgb(160, 42, 107) ;
+}
+main h3:hover{
+color : rgb(229, 255, 0) ;
+}
+.searchS p:hover{
+color : yellow ;
+}
+.searchS ul:hover {
+    color : yellow ;
+}
+.one img {
+    border: 2px solid rgb(56, 168, 28);
+    border-radius: 90px;
+    padding: 12px;
+}
+
+.one li{
+    padding-top : 15px ;
+    font-size : 14px ;
+    color : rgb(2, 2, 2) ;
+    font-weight : bolder ;
+}
+body {
+    width : 1024px ;
+   /* background-image: url('https://i.pinimg.com/originals/df/40/89/df40899d3e1016db74dbabdf11d753fc.jpg');    
+    background-size:auto ;*/
+   /* background-repeat: no-repeat ;
+   opacity : 0.3 ;
+   */
+}
+*{
+    padding-top : 5px ; 
+}
+
+/*footer {
+    background-image: unset;
+}*/

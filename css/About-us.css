@@ -1,0 +1,60 @@
+
+.pic{
+    
+     border-radius: 40px; 
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(56, 168, 28);
+    padding: 10px;
+    
+   
+    
+}
+
+body{
+    /* background-image: url(https://s3.img-b.com/image/private/t_base,c_pad,f_auto,dpr_2,w_480,h_480/product/shaw/shaw-cs37p-00100-9459802.jpg); */
+    width: 1024px;
+    margin: auto;
+    
+}
+
+a img { 
+    
+     
+     text-align: center;
+     align-items: center;
+    
+    
+}
+main section {
+    display: grid ;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    gap: 50px;
+}
+main section div img {
+    text-align: center;
+    
+}
+h3{
+    color: black;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 22px;
+}
+h5 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #062f4f;
+}
+p {
+    color: rgb(255, 140, 0);
+    padding: 30px;
+    width: 200px;
+    height: 70px;
+    
+}
+main{
+    padding-top: 50px;
+    
+}
