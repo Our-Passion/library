@@ -1,3 +1,4 @@
+
 'use strict' ;
 
 let srcimg = [
@@ -5,7 +6,11 @@ let srcimg = [
   'Alexander McCall Smith.jpg',
   'alice hoffman.jpg',
   'Margaret.jpg',
-  'Stephen King.jpg'
+  'Stephen King.jpg',
+  'T-Albert.jpg',
+  'Jon-Duckett.jpg',
+  'H-G-Wells.jpg',
+  'Fyodor-Dostoyevsky.jpg'
 ] ;
 let book = [
   'The Murder of roger ackroyd.Murder at the vicarage'
@@ -13,6 +18,10 @@ let book = [
   , 'Practical Magic.The world That We Knew'
   , 'The Handmaids Tale.The Testaments'
   , 'IT.Misery'
+  , 'Are-We-There.Bully Pill'
+  , 'HTML and CSS.JavaScript and JQuery'
+  , 'The War of the Worlds.Tono Bungay'
+  , 'The Idiot.Alittle Hero'
 ] ;
 let puplish = [
   '2006.2006'
@@ -20,6 +29,10 @@ let puplish = [
   , '2003.2019'
   , '1985.2019'
   , '1987.1988'
+  , '2015.2021'
+  , '2011.2008'
+  , '1898.1908'
+  , '2013.1849'
 ] ;
 
 const picOne = document.getElementById('picOne') ;
@@ -27,18 +40,30 @@ const picTwo = document.getElementById('picTwo') ;
 const picThree = document.getElementById('picThree') ;
 const picFour = document.getElementById('picFour') ;
 const picFive = document.getElementById('picFive') ;
+const picSix = document.getElementById('picSix') ;
+const picSeven = document.getElementById('picSeven') ;
+const picEight = document.getElementById('picEight') ;
+const picNine = document.getElementById('picNine') ;
 
 const pOne = document.getElementById('author1') ;
 const pTwo = document.getElementById('author2') ;
 const pThree = document.getElementById('author3') ;
 const pFour = document.getElementById('author4') ;
 const pFive = document.getElementById('author5') ;
+const pSix = document.getElementById('author6') ;
+const pSeven = document.getElementById('author7') ;
+const pEight = document.getElementById('author8') ;
+const pNine = document.getElementById('author9') ;
 
 let one = 0 ;
 let two = 1 ;
 let three = 2 ;
 let four = 3 ;
 let five = 4 ;
+let six = 5 ;
+let seven = 6 ;
+let eight = 7 ;
+let nine = 8 ;
 
 // Random Number For Choosing Random Image :
 do
@@ -48,9 +73,20 @@ do
   three = randNum( 0 , srcimg.length -1 ) ;
   four = randNum( 0 , srcimg.length -1 ) ;
   five = randNum( 0 , srcimg.length -1 ) ;
+  six = randNum( 0 , srcimg.length -1 ) ;
+  seven = randNum( 0 , srcimg.length -1 ) ;
+  eight = randNum( 0 , srcimg.length -1 ) ;
+  nine = randNum( 0 , srcimg.length -1 ) ;
 } while (one === two || one === three || two === three ||
   one === four || one === five || four === five || five === three
-|| two === four || three === four || two === five) ;
+|| two === four || three === four || two === five || four === six
+|| one === eight || seven === nine || two === six || five === eight
+|| seven === eight || five === seven || two === seven || two === eight
+|| five === nine || six === eight || six === nine || eight === nine
+|| one === nine || three === six || five === six || two === nine
+|| four === eight || one === six || four === eight || three === seven
+|| one === seven || six === seven || three === eight || three === nine
+|| four === nine ) ;
 
 function author (name , picSrc , book , puplish )
 {
@@ -77,6 +113,10 @@ const butTwo = document.getElementById('but2') ;
 const butThree = document.getElementById('but3') ;
 const butFour = document.getElementById('but4') ;
 const butFive = document.getElementById('but5') ;
+const butSix = document.getElementById('but6') ;
+const butSeven = document.getElementById('but7') ;
+const butEight = document.getElementById('but8') ;
+const butNine = document.getElementById('but9') ;
 const optionButton = document.getElementById('buttonOption') ;
 
 butOne.addEventListener('click' , click) ;
@@ -84,12 +124,14 @@ butTwo.addEventListener('click' , click) ;
 butThree.addEventListener('click' , click) ;
 butFour.addEventListener('click' , click) ;
 butFive.addEventListener('click' , click) ;
+butSix.addEventListener('click' , click) ;
+butSeven.addEventListener('click' , click) ;
+butEight.addEventListener('click' , click) ;
+butNine.addEventListener('click' , click) ;
 
 optionButton.addEventListener('click' , clickOption) ;
 
 ///////////////////////////////////////////////////////////////////////////////////
-
-/////////////////////////////////////////////////////////////////////////////////
 // Functions :
 
 // Function Search Button :
@@ -142,6 +184,18 @@ function print()
 
   picFive.src = ('./imgAuthor/' + author.arr[five].pic) ;
   pFive.textContent = author.arr[five].name ;
+
+  picSix.src = ('./imgAuthor/' + author.arr[six].pic) ;
+  pSix.textContent = author.arr[six].name ;
+
+  picSeven.src = ('./imgAuthor/' + author.arr[seven].pic) ;
+  pSeven.textContent = author.arr[seven].name ;
+
+  picEight.src = ('./imgAuthor/' + author.arr[eight].pic) ;
+  pEight.textContent = author.arr[eight].name ;
+
+  picNine.src = ('./imgAuthor/' + author.arr[nine].pic) ;
+  pNine.textContent = author.arr[nine].name ;
 }
 // Function options Fill The Author Name In option :
 function option()
@@ -163,10 +217,13 @@ function click(event)
   let butp3 = document.getElementById('butp3') ;
   let butp4 = document.getElementById('butp4') ;
   let butp5 = document.getElementById('butp5') ;
+  let butp6 = document.getElementById('butp6') ;
+  let butp7 = document.getElementById('butp7') ;
+  let butp8 = document.getElementById('butp8') ;
+  let butp9 = document.getElementById('butp9') ;
 
   if (event.target.id === 'but1')
   {
-  //  li.removeChild(li.childNodes[0]);
     let li = document.createElement('li') ;
     li.textContent = 'Book 1. ( ' + book[one].split('.')[0] + ' )';
     butp1.appendChild(li) ;
@@ -249,8 +306,66 @@ function click(event)
     butp5.appendChild(li4) ;
 
     butFive.style.display = 'none' ;
-
+  }else if (event.target.id === 'but6')
+  {
+    let li = document.createElement('li') ;
+    li.textContent = 'Book ( ' + book[six].split('.')[0] + ' )' ;
+    butp6.appendChild(li) ;
+    let li2 = document.createElement('li') ;
+    li2.textContent = 'Published in : ' + puplish[six].split('.')[0] ;
+    butp6.appendChild(li2) ;
+    let li3 = document.createElement('li') ;
+    li3.textContent = 'Book 2. ( ' + book[six].split('.')[1] + ' )' ;
+    butp6.appendChild(li3) ;
+    let li4 = document.createElement('li') ;
+    li4.textContent = 'Published in : ' + puplish[six].split('.')[1] ;
+    butp6.appendChild(li4) ;
+    butSix.style.display = 'none' ;
+  }else if (event.target.id === 'but7')
+  {
+    let li = document.createElement('li') ;
+    li.textContent = 'Book ( ' + book[seven].split('.')[0] + ' )' ;
+    butp7.appendChild(li) ;
+    let li2 = document.createElement('li') ;
+    li2.textContent = 'Published in : ' + puplish[seven].split('.')[0] ;
+    butp7.appendChild(li2) ;
+    let li3 = document.createElement('li') ;
+    li3.textContent = 'Book 2. ( ' + book[seven].split('.')[1] + ' )' ;
+    butp7.appendChild(li3) ;
+    let li4 = document.createElement('li') ;
+    li4.textContent = 'Published in : ' + puplish[seven].split('.')[1] ;
+    butp7.appendChild(li4) ;
+    butSeven.style.display = 'none' ;
+  }else if (event.target.id === 'but8')
+  {
+    let li = document.createElement('li') ;
+    li.textContent = 'Book ( ' + book[eight].split('.')[0] + ' )' ;
+    butp8.appendChild(li) ;
+    let li2 = document.createElement('li') ;
+    li2.textContent = 'Published in : ' + puplish[eight].split('.')[0] ;
+    butp8.appendChild(li2) ;
+    let li3 = document.createElement('li') ;
+    li3.textContent = 'Book 2. ( ' + book[eight].split('.')[1] + ' )' ;
+    butp8.appendChild(li3) ;
+    let li4 = document.createElement('li') ;
+    li4.textContent = 'Published in : ' + puplish[eight].split('.')[1] ;
+    butp8.appendChild(li4) ;
+    butEight.style.display = 'none' ;
+  }else if (event.target.id === 'but9')
+  {
+    let li = document.createElement('li') ;
+    li.textContent = 'Book ( ' + book[nine].split('.')[0] + ' )' ;
+    butp9.appendChild(li) ;
+    let li2 = document.createElement('li') ;
+    li2.textContent = 'Published in : ' + puplish[nine].split('.')[0] ;
+    butp9.appendChild(li2) ;
+    let li3 = document.createElement('li') ;
+    li3.textContent = 'Book 2. ( ' + book[nine].split('.')[1] + ' )' ;
+    butp9.appendChild(li3) ;
+    let li4 = document.createElement('li') ;
+    li4.textContent = 'Published in : ' + puplish[nine].split('.')[1] ;
+    butp9.appendChild(li4) ;
+    butNine.style.display = 'none' ;
   }
-  //  document.getElementById('click').removeEventListener('click', click);
-
 }
+
