@@ -1,12 +1,12 @@
 let galaryArray = [
 
-  'the_idiot.webp',
+  'the_idiot.jpg',
   'ARE-WE-THERE.jpg',
   'HTML and CSS.jpg',
   'The-Testaments.jpg',
   'The-Handmaid-Tale.jpg',
-  'it.jpg',
-  'misery.jpg',
+  'IT.jpg',
+  'Misery.jpg',
   'Practical-Magic.jpg',
   'The-World-That-We-Knew.jpg',
   'Morality-for-Beautiful-Girls.jpg',
@@ -25,8 +25,7 @@ let book2 = document.getElementById('book2');
 let book3 = document.getElementById('book3');
 let book4 = document.getElementById('book4');
 let book5 = document.getElementById('book5');
-//let book6 = document.getElementById('book6');
-//let book7 = document.getElementById('book7');
+
 function ImgSrc(name, srcOfImg) {
   this.name = name;
   this.img = srcOfImg;
