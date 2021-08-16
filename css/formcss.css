@@ -84,10 +84,11 @@ body{
      legend{
          font-family: fantasy;
          border-style: double;
-         border-radius:5px;
+         border-radius:100px;
          background-color: cornsilk;
          text-align: center;
-         border: 2px solid black; }
+         border: 2px solid black;
+         }
          input:hover{
             background-color:green;}
     
@@ -113,5 +114,6 @@ body{
     form img{
         float: right;
     }
-    
+    select:hover{
+        background-color:green;}
       
