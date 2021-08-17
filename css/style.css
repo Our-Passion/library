@@ -64,7 +64,10 @@ footer section img {
 body {
     font-family: "Trirong", serif;
     width : 100% ;
-    background-color: #e3d18aad;
+    background-color: white;
+    /*
+        background-color: #F5E8C7;
+    */
     margin : auto ;
 }
 .bigimg{
