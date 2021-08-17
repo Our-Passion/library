@@ -1,119 +1,93 @@
+input{
+    height:50px;
+    width:300px;
+    text-align: center;
+    border-radius: 5px;
 
+}
+fieldset{
 
+    height:600px;
+    width:600px;
+    text-align: center;
+    align-items: center;
+    background-color: #9E7777;
+    color : rgb(0, 0, 0) ;
+    border: 1px solid rgb(112, 95, 95);
+    margin: auto;
+    border-radius: 5px;
+    
+}
+#container{
+    height:80px;
+   padding-top: 20px;
+   font-size: 30px;
+}
 
-body{
-    width:1024px;
-    margin:auto;
+#sub{
+    width: 200px;
+    display:grid;
+    grid-template-columns: auto auto;
+    gap:10px;
+}
+input[type=submit]{
+    width: 150px;
+    margin-left: 140px;
+    border-radius: 5px;
+
+}
+input[type=button]{
+    width: 150px;
+    border-radius: 5px;
+
+}
+fieldset img{
+    margin-top:40px;
+    float:right;
+}
+input[type=submit]:hover{
+    background-color:#96BAFF;
+    width: 200px;
+    color: blue;
+
+}
+input[type=button]:hover{ 
+ background-color:#96BAFF;
+ width: 200px;
+ color: blue;
     }
-    main p{
-        font-family: monospace;
-        text-align: center;
+    input:hover{
+        background-color:#96BAFF;
+        color: blue;
     }
-    
-    fieldset{
-        background-color:bisque;
-        width: 500px;
-        border-radius: 10px;
-        padding-left: 10px;
-        padding-bottom: 10px;
-        border-width: 5px;
-        border-style: solid;
-    }
-    #ehab{
-        width:10;
-        background-image: url('img/hr-img.png');
-        margin-top: 20px;
-        margin-bottom: 20px;
-        color:black;
-        height:50;
-    }
-    input[type=text]{
-        border-style: solid;
-        border-radius: 10px;
-        border-color: black;
-        background-color: blanchedalmond;
-    
-    }
-    select{
-        width: 120px;
-        border-radius:10px;
-        background-color: blanchedalmond;
-        width:130px;
-        border-style: solid;
-        border-color: black;
-        border-width:2px ;
-    }
-    input[type=number]{
-        border-style: solid;
-        border-radius: 10px;
-        border-color: black;
-        width:130px;
-        background-color: blanchedalmond;
-        }   
-    input[type=submit]{
-        border-style: solid;
-        border-radius: 10px;
-        border-color: black;
-        width:200px;
-        background-color: blanchedalmond;
-        font-family: fantasy;
-    
-    }
-    
-    main div:nth-child(1)  {
-        font-family:Arial, Helvetica, sans-serif;
-    }
-    
-     
-    input[type=button]{
-        border-style: solid;
-        border-radius: 10px;
-        border-color: black;
-        width:70px;
-        background-color: blanchedalmond;
-        font-family: fantasy;
-    
-    }
-    label{
-        font-family: fantasy;
-        font-style: italic;
-        padding-right: 5px;
-    }
-    input[type=submit]:hover{
-    background-color:green;}
-     legend{
-         font-family: fantasy;
-         border-style: double;
-         border-radius:100px;
-         background-color: cornsilk;
-         text-align: center;
-         border: 2px solid black;
+    #get {
+        padding-top:50px ;
+        max-width: 600px;
+        font-family: arial;
+        height:600px ;
+        width: 600PX;
+        margin-left:460px;
+        margin-top:100px
+      }
+      #se {
+        color: grey;
+        font-size: 22px;
+      }
+      main{
+          margin-top: 300px;
+      }
+      select{
+        width: 100px;
+        border-radius: 5px;
          }
-         input:hover{
-            background-color:green;}
-    
-    #get{
-        display: grid;
-        grid-template-columns: auto auto;
-         gap: 10px;
-    }
-    #par{
-        font-size: large;
-        font-style: italic;
-        color:black;
-    }
-    #img{
-        width: 350;
-        height: 500px;
-        object-fit: cover;
-        border-radius: 360px;
-    }
-    main{margin-top: 50px;
-    
-    }
-    form img{
-        float: right;
-    }
-    select:hover{
-        background-color:green;}
-      
+     select:hover{
+         background-color: #96BAFF;
+         color: blue;
+     }
+     body{
+text-align: center;     }
+
+main h3{
+    font-size: 30px;
+    padding-bottom: 100px;
+}
