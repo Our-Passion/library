@@ -1,6 +1,6 @@
-body{
+ body{
     width: 100%;
-    background-color: whitesmoke;
+    background-color: white;
   
 }
 
@@ -9,24 +9,18 @@ h1{
     color: rgb(10, 0, 0);
     font-size: 60px;
     font-family: "Trirong", serif;
-  
+    text-align: center;
+
 }
-.page-title{
-  background-color: #cebbbb;
-}
+
 h2{
   color: rgb(10, 0, 0);
   font-size: 60px;
   font-family: "Trirong", serif;
-  border: #c4adad;
-  background-color:#c4adad ;
+  text-align: center;
+
 }
-.bigimg{
-    width: 100%;
-    height: 200px;
-    
-    
-}
+
 
   section{
     margin-top: 20px;
@@ -41,22 +35,23 @@ h2{
     padding-top: 10px;
     padding-bottom: 10px;
     position: relative;
-    /* border: 1px solid rgb(136, 10, 73); */
+    
     background-color: #c4adad;
 
 
   }
 
   .grigForBooks img {
-height: 200px;
-width:150px;
+
 gap: 20px;
 display: block;
   margin-left: auto;
   margin-right: auto;
    
   padding: 8px;
-
+  height: 300px;
+  width:250px;
+  margin-top: 50px;
 
   }
 
@@ -74,7 +69,7 @@ display: block;
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  -webkit-transition-duration: 0.4s; /* Safari */
+  -webkit-transition-duration: 0.4s; 
   transition-duration: 0.4s;
   
   display: block;
@@ -90,27 +85,27 @@ display: block;
 
 .abstract{
   display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-columns: 25% 25% 25% 25% ;
   padding-top: 10px;
   padding-bottom: 10px;
     position: relative;
-    /* border: 1px solid rgb(136, 10, 73);; */
+   
     background-color: #b19292;
 }
 .abstracth{
 
-  background-color: #b19292;
+  text-align: center;
 }
 
 .abstract img {
-  height: 200px;
-  width:150px;
-  gap: 20px;
+  height: 300px;
+  width:250px;
+  margin-top: 50px;
+  gap: 10px;
   display: block;
     margin-left: auto;
     margin-right: auto;
-  /* border-radius: 30px;
-  border: 1px solid rgb(98, 100, 98); */
+  
   padding: 8px;
   
     }
@@ -132,7 +127,7 @@ display: block;
     margin-left: auto;
     margin-right: auto;
      
-    -webkit-transition-duration: 0.4s; /* Safari */
+    -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     
       }
@@ -150,15 +145,14 @@ display: block;
   grid-area: 1 / 1 / span 2 / span 2;
 
   position: relative;
-    top: 22px;
+    top: 75px;
 }
 
 .imgclick{
     display: grid;
 grid-template-columns: auto auto auto auto;
     gap: 30px;
-/* 
-    border: 1px solid rgb(136, 10, 73); */
+
 
     background-color: #cebbbb;
 
@@ -168,21 +162,23 @@ grid-template-columns: auto auto auto auto;
 
  .imgclick img {
   
-  height: 200px;
-  width:150px;
- 
-   gap: 20px;
+  height: 300px;
+  width:250px;
+  margin-top: 50px;
+   gap: 2px;
   display: block;
     margin-left: auto;
     margin-right: auto;
 
    
-      padding: 8px;
   }
 
 
   #book1{
   
-    width: 300px;
-    height:400px ;
-  }
+    width: 350px;
+    height:500px ;
+  } 
+.imgclick1{
+  margin-top: 200px;
+}
