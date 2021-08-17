@@ -66,13 +66,13 @@ body {
 /* background-color: #D6EFC7;*/
 
     font-family: "Trirong", serif;
-    width : 1400px ;
+    width : 100% ;
  background-color: #e3d18aad;
  margin : auto ;
 }
 .bigimg{
     position: relative;
     top:50px;
-    width:1400px;
+    width: 100%;
 }
 
