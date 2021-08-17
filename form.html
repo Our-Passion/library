@@ -11,92 +11,92 @@
 
 </head>
 <body>
-        <header>
-            <div>
-                <img src='./img/logo.png' alt="logo" width='80' height='65'>
-                <h1>Passion Library</h1>
-            </div>
-            <nav>
-                <a href='./index.html'>HOME</a>
-                <a href='./author.html'>AUTHOR</a>
-                <a href='./mybook.html'>SUGESSTION</a>
-                <a href='./form.html'>PIC A BOOK</a>
-                <a href='./aboutus.html'>ABOUT US</a>
-            </nav>
-        </header>
+    <header>
+        <div>
+            <img src='img/logo.png' alt="logo" width='80' height='65'>
+                        <h1>Passion Library</h1>
+
+            <a href='./aboutus.html'>ABOUT US</a>
+            <a href='./form.html'>PIC A BOOK</a>
+            <a href='./mybook.html'>SUGESSTION</a>
+            <a href='./author.html'>AUTHOR</a>
+            <a href='./index.html'>HOME</a>
+        </div> 
+        
+       <img src="img/hero img.png" alt="" height="700"  class="bigimg">
+      
+    </header>
 <main>
+        
+    <h3> Please, Fill Empty fields in form Below to get the recommended Book</h3>
+          
+ 
 
-   
+    
+<br><br>
 
-
-<div id="container">
 
  <fieldset id="ehab">
-     <h1> Recommendation Form </h1>
-    <form id="part">
-    <label for="name"> Your First Name</label>
-    <input type="text" id="name" value="" required ><br><br>
-    <label for="name2">Your Last Name</label>
-    <input type="text" id="name2" value="" required><br><br>
-    <label for="age"> Your Age (numbers)</label>
-    <input type="number" id="age" min="7" max="90"required><br><br>
-    <label for="cat">Select one category</label>
+  <div id="container">
 
-    <select id="cat" name="" required><br><br>
+   <h1> Recommendation Form</h1>
+  </div>
+    <form id="part">
+        
+    <input type="text" id="name" value="" placeholder="Your First Name"required ><br><br>
+    <input type="text" id="name2" value=""placeholder="Your Last Name" required><br><br>
+    <input type="number" id="age" min="7" max="90"placeholder="Your Age" required><br><br>
+    <select name="Select One Category" id="cat"style="width: 310px; height:55px;">
+   
     <option value="biography">biography</option>
     <option value="novel">novel</option>
     <option value="story">story</option>
     <option value="crime">crime</option>
     <option value="challenge">challenge </option>
+   </select>
 
-    </select><br><br>
+  <br><br>
 
-    <label for="gen">Gender</label>
-    <select id="gen" name="" required><br><br>
+     <select name="" id="gen"style="width: 310px; height:55px;">
     <option value="male">male</option>
     <option value="female" selected>female</option>
-    </select> <br><br>
-    <div class="submit-but">
-        <input type="submit" value="Submit">
+</select>
+<br><br>
+<div id="sub">
+    <input type="submit" value="Submit">
     <input type="button" value="Reset" onclick="fx();">
-    </div>
-    
-    <img src='./img/logo.png' alt="logo" width='50' height='30'>
-
-
+  </div>
     </form>
+   <img src='./img/logo.png' alt="logo" width='70' height='40'>
+
  </fieldset>
 </div>
 <div id="get">
-<a id="se" href=""><img id="img" src=""></a>
-<article id="par"></article>
-</div>
+    <a id="se" href=""><img id="img" src=""></a>  
+    <article id="par"></article>   
+  </div>
 
-</main>
     
 </main>
 <footer>
-    
-
-<section>
-    <a href='./index.html'>HOME</a>
-    <a href='./author.html'>AUTHOR</a>
-    <a href="./mybook.html">SUGESSTION</a>
-    <a href='./form.html'>PIC A BOOK</a>
-    <a href='./aboutus.html'>ABOUT US</a>
-    </section>
-    <img src='./img/hr-img.png' alt='' width='1024' height='10'>
     <section>
-        <a href="" target='_balnk'><img src="./img/face.png" alt="facebook" width='30px'></a>
-            <a href='' target='_balnk'><img src="./img/giit.png" alt="github" width='30px'></a>
-            <a href='' target='_balnk'><img src="./img/mail.png" alt="google" width='30px'></a>
-            <a href='' target='_balnk'><img src="./img/twit.png" alt="twiter" width='30px'></a>
-            <a href='' target='_balnk'><img src="./img/wats.png" alt="watsapp" width='30px'></a>
-            <a href='' target='_balnk'><img src="./img/insta.png" alt="insta" width='30px'></a>
+        <a href='./index.html'>HOME</a>
+        <a href='./author.html'>AUTHOR</a>
+        <a href="./mybook.html">SUGESSTION</a>
+        <a href='./form.html'>PIC A BOOK</a>
+        <a href='./aboutus.html'>ABOUT US</a>
         </section>
+        <img src='img/hr-img.png' alt='' width='100%' height='10'>
+        <section>
+            <a href="" target='_balnk'><img src="img/face.png" alt="facebook" width='30px'></a>
+                <a href='' target='_balnk'><img src="img/giit.png" alt="github" width='30px'></a>
+                <a href='' target='_balnk'><img src="img/mail.png" alt="google" width='30px'></a>
+                <a href='' target='_balnk'><img src="img/twit.png" alt="twiter" width='30px'></a>
+                <a href='' target='_balnk'><img src="img/wats.png" alt="watsapp" width='30px'></a>
+                <a href='' target='_balnk'><img src="img/insta.png" alt="insta" width='30px'></a>
+            </section>
 </footer>
-
    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <script src="./js/form.js"></script>
+    <script src="js/form.js"></script>
 </body>
 </html>>

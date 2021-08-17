@@ -86,7 +86,7 @@ do
 || one === nine || three === six || five === six || two === nine
 || four === eight || one === six || four === eight || three === seven
 || one === seven || six === seven || three === eight || three === nine
-|| four === nine ) ;
+|| four === nine || four === seven) ;
 
 function author (name , picSrc , book , puplish )
 {
@@ -148,7 +148,7 @@ function clickOption(even)
   picB.src = ('./imgAuthor/' + sel + '.jpg') ;
   picB.width = '300' ;
   picB.height = '300' ;
-  picB.style = 'border: 2px solid rgb(56, 168, 28) ;' + ' border-radius: 180px ;' + ' padding: 12px;' ;
+  picB.style = 'border: 2px solid  #c36a2d ;' + ' border-radius: 180px ;' + ' padding: 12px;' ;
 
   for (let i = 0 ; i < srcimg.length ; i++ )
   {

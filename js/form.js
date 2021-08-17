@@ -26,13 +26,14 @@ function fx(){
 function render (x,firstName, lastName ){
 
   if (x === 'biography'){
+    getget.style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);";
 
     swal({
       title: `Dear ${firstName}  ${lastName}`,
       text: ' we are so excited that you are interested in this Reading topic  so its our Pleasure  to Recommend this book for you',
       icon: 'success',
     });
-    getpar.innerHTML='Book Name: The Handmaid Tale... <br><br><br>Writen By: Margaret Atwood ... and Puplished: in 1985';
+    getpar.innerHTML='Book Name: The Handmaid Tale...<br> <br> Writen By: Margaret Atwood ... <br> <br> Puplished in:  1985';
     geta.href = './pageofbooks/The-Handmaid.html';
     getimg.src = './img/The-Handmaid-Tale.jpg';
   }
@@ -45,7 +46,7 @@ function render (x,firstName, lastName ){
       text: ' we are so excited that you are interested in this Reading topic  so its our Pleasure  to Recommend this book for you',
       icon: 'success',
     });
-    getpar.innerHTML='Book Name:Practical Magic... Writen By: Alice Hoffman ... and Puplished: in 2003';
+    getpar.innerHTML='Book Name:Practical Magic... <br> <br>Writen By: Alice Hoffman ... <br> <br> Puplished in:  2003';
     geta.href = './pageofbooks/Practical-Magic.html';
     getimg.src = './img/Practical-Magic.jpg';
   }
@@ -54,7 +55,7 @@ function render (x,firstName, lastName ){
       title: `Dear ${firstName}  ${lastName}`,
       text: ' we are so excited that you are interested in this Reading topic  so its our Pleasure  to Recommend this book for you',
       icon: 'success', });
-    getpar.innerHTML =' Book Name: The World That We Knew... Writen By: Alice Hoffman ... and Puplished: in 2019';
+    getpar.innerHTML =' Book Name: The World That We Knew...<br> <br> Writen By: Alice Hoffman ...<br> <br> Puplished in : 2019';
     geta.href = './pageofbooks/The-World.html';
     getimg.src = './img/The-World-That-We-Knew.jpg';
   }
@@ -63,7 +64,7 @@ function render (x,firstName, lastName ){
       title: `Dear ${firstName}  ${lastName}`,
       text: ' we are so excited that you are interested in this Reading topic  so its our Pleasure  to Recommend this book for you',
       icon: 'success', });
-    getpar.innerHTML=' Book Name: The Murder of Roger Ackroyd... Writen By: Agatha Christie ... and Puplished: in 2006';
+    getpar.innerHTML=' Book Name: The Murder of Roger Ackroyd...<br> <br>Writen By: Agatha Christie ...<br> <br> Puplished in:  2006';
     geta.href = './pageofbooks/Murder.html';
     getimg.src = './img/The-Murder-of-Roger-Ackroyd.jpg';
   }
@@ -73,7 +74,7 @@ function render (x,firstName, lastName ){
       title: `Dear ${firstName}  ${lastName}`,
       text: ' we are so excited that you are interested in this Reading topic  so its our Pleasure  to Recommend this book for you',
       icon: 'success', });
-    getpar.innerHTML= ' Book Name: The Miracle at Speedy Motors... Writen By: Alexander McCall Smith ... and Puplished: in 1985';
+    getpar.innerHTML= ' Book Name: The Miracle at Speedy Motors...<br> <br> Writen By: Alexander McCall Smith ...<br> <br>Puplished in:  1985';
     geta.href = './pageofbooks/The-Miracle.html';
     getimg.src = './img/The-Miracle-at-Speedy-Motors.jpg';
   }
