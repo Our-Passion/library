@@ -32,7 +32,7 @@ function render (x,firstName, lastName ){
       text: ' we are so excited that you are interested in this Reading topic  so its our Pleasure  to Recommend this book for you',
       icon: 'success',
     });
-    getpar.innerHTML='Book Name: The Handmaid Tale... Writen By: Margaret Atwood ... and Puplished: in 1985';
+    getpar.innerHTML='Book Name: The Handmaid Tale... <br><br><br>Writen By: Margaret Atwood ... and Puplished: in 1985';
     geta.href = './pageofbooks/The-Handmaid.html';
     getimg.src = './img/The-Handmaid-Tale.jpg';
   }
