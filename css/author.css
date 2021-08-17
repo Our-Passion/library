@@ -136,34 +136,31 @@ main h3 {
     color : #4d3709 ;
 }
 fieldset{
-    width : 350px ;
+    width : 900px ;
     background-color: rgba(255, 255, 255, 0.6);
     font-weight : bolder ;
-    height : 90px ;
+    height : 200px ;
     color : rgb(0, 0, 0) ;
     border: 1px solid rgb(112, 95, 95);
     background-color: #C36A2D;
     margin: auto;
-
     text-align: center;
     padding : 15px ;
 }
 main form{
-    padding-top: 20px ;
+    padding-top: 60px ;
     cursor : copy ;
     font-size: 25px ;
     font-weight : bolder ;
- 
 }
 main select {
-    width : 200px ;
-    height : 25px ;
-    font-size : 14px ;
-   
+    width : 700px ;
+    height : 60px ;
+    font-size : 20px ;   
 }
 .searchS{
     text-align: center;
-    padding-bottom: 20px ;
+    padding-bottom: 100px ;
 }
 .searchS p {
     font-weight : bolder ;
@@ -193,7 +190,7 @@ main div {
 }
 .search {
     cursor :zoom-in ;
-    width : 200px ;
+    width : 100px ;
     height : 27px ;
 }
 main form select {
@@ -262,18 +259,16 @@ color : rgb(0, 17, 255) ;
     width: 100%;
     font-size: 18px;
   }
-  
   a {
     text-decoration: none;
     font-size: 22px;
     color: #C36A2D;
   }
-  
   button:hover, a:hover {
     opacity: 0.7;
   }
-
 body{
     font-family: "Trirong", serif;
+    width : 1024px ;
 }
 

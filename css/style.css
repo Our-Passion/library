@@ -66,18 +66,10 @@ body {
 /* background-color: #D6EFC7;*/
 
  background-color: #e3d18aad;
- 
-     margin : auto ;    
 }
-********************************
-*/
-
- 
-
 .bigimg{
     position: relative;
     top:50px;
-    width:2000px;
-    
+    width:1024px;
 }
 
