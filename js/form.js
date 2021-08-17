@@ -40,6 +40,7 @@ function render (x,firstName, lastName ){
 
   if (x === 'novel'){
 
+    getget.style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);";
 
     swal({
       title: `Dear ${firstName}  ${lastName}`,
@@ -51,6 +52,8 @@ function render (x,firstName, lastName ){
     getimg.src = './img/Practical-Magic.jpg';
   }
   if (x === 'story'){
+    getget.style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);";
+
     swal({
       title: `Dear ${firstName}  ${lastName}`,
       text: ' we are so excited that you are interested in this Reading topic  so its our Pleasure  to Recommend this book for you',
@@ -60,6 +63,8 @@ function render (x,firstName, lastName ){
     getimg.src = './img/The-World-That-We-Knew.jpg';
   }
   if (x === 'crime'){
+    getget.style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);";
+
     swal({
       title: `Dear ${firstName}  ${lastName}`,
       text: ' we are so excited that you are interested in this Reading topic  so its our Pleasure  to Recommend this book for you',
@@ -70,6 +75,8 @@ function render (x,firstName, lastName ){
   }
 
   if (x === 'challenge'){
+    getget.style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);";
+
     swal({
       title: `Dear ${firstName}  ${lastName}`,
       text: ' we are so excited that you are interested in this Reading topic  so its our Pleasure  to Recommend this book for you',
