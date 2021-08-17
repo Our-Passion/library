@@ -1,112 +1,126 @@
 body{
-    width: 1024px;
+    width: 100%;
+    background-color: whitesmoke;
   
 }
-/*
-header{
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 30px 20px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}*/
-h1{
-    color: rgb(10, 0, 0);
-    font-size: 50px;
-    font-family: 'Gill Sans',  sans-serif;
+
+header1{
+  height: 420;
 }
 
+h1{
+    color: rgb(10, 0, 0);
+    font-size: 60px;
+    font-family: "Trirong", serif;
+  
+}
+.page-title{
+  background-color: #cebbbb;
+}
 h2{
   color: rgb(10, 0, 0);
-  font-size: 50px;
-  font-family: 'Gill Sans',  sans-serif;
+  font-size: 60px;
+  font-family: "Trirong", serif;
+  border: #c4adad;
+  background-color:#c4adad ;
 }
 .bigimg{
-    width: 1000px;
+    width: 100%;
     height: 200px;
-    opacity: 0.5; 
+    
     
 }
 
   section{
-    padding: 30px 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
   }
 
   .grigForBooks{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
 
-    height: 350px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     position: relative;
-    border: 1px solid rgb(136, 10, 73);
+    /* border: 1px solid rgb(136, 10, 73); */
+    background-color: #c4adad;
 
 
   }
 
   .grigForBooks img {
-height: 250px;
+height: 200px;
 width:150px;
 gap: 20px;
 display: block;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 30px;
-  border: 1px solid rgb(98, 100, 98);
+   
   padding: 8px;
 
 
   }
-  .grigForBooks div> input {
-    background-color: #1d1f1d;
-    border: none;
-    color: white;
-width: 150px;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    position: relative;
 
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-   
-
-  }
 
  
+  .grigForBooks div> input {
+    width: 150px;
+    background-color: #ebe3e3;
+    border: none;
+    color: #5e4747;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+ 
+
+.grigForBooks div> input:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
 
 
 .abstract{
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
-
-  height: 700px;
+  padding-top: 10px;
+  padding-bottom: 10px;
     position: relative;
-    border: 1px solid rgb(136, 10, 73);;
+    /* border: 1px solid rgb(136, 10, 73);; */
+    background-color: #b19292;
+}
+.abstracth{
+
+  background-color: #b19292;
 }
 
 .abstract img {
-  height: 250px;
+  height: 200px;
   width:150px;
   gap: 20px;
   display: block;
     margin-left: auto;
     margin-right: auto;
-  border-radius: 30px;
-  border: 1px solid rgb(98, 100, 98);
+  /* border-radius: 30px;
+  border: 1px solid rgb(98, 100, 98); */
   padding: 8px;
   
     }
     .abstract div> input {
-      background-color: #1d1f1d;
+      background-color: #ebe3e3;
       border: none;
-      color: white;
+      color: #5e4747;
   width: 150px;
       padding: 15px 32px;
       text-align: center;
@@ -121,87 +135,57 @@ width: 150px;
     margin-left: auto;
     margin-right: auto;
      
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    
+      }
+
+      
+      .abstract div> input:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
   
-    }
-  
 
-/*
-
-.button1 {
-    background-color: #1d1f1d;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    position: relative;
-    left: 500px;
-    bottom: 350px;
-  }
-*/
- /* .article1{
-    color:white;
-
-    border: 5px outset black;
-    background-color: black;    
-    text-align: center;
-    position:relative;
-    left:400px;
-    bottom: 300px;
-    width:50%;
-  }*/
-/*
-  article{
-    color:white;
-
-    border: 5px outset black;
-    background-color: black;    
-    text-align: center;
-    position:relative;
-    left:400px;
-    bottom: 300px;
-    width:50%;
-  }*/
 
  
 .b1{
-  grid-area: b1;
+  grid-area: 1 / 1 / span 2 / span 2;
+
+  position: relative;
+    top: 22px;
 }
 
 .imgclick{
     display: grid;
-   grid-template-areas: 'b1 b1 . .'
-                        'b1 b1 . .';
+grid-template-columns: auto auto auto auto;
     gap: 30px;
+/* 
+    border: 1px solid rgb(136, 10, 73); */
 
-    border: 1px solid rgb(136, 10, 73);
+    background-color: #cebbbb;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
  .imgclick img {
-  width: 100%;
-  height: 100%;
+  
+  height: 200px;
+  width:150px;
+ 
+   gap: 20px;
   display: block;
-  object-fit: cover;
-  gap: 20px;
-    border-radius: 30px;
-      border: 1px solid rgb(98, 100, 98);
+    margin-left: auto;
+    margin-right: auto;
+
+   
       padding: 8px;
   }
-/*
 
-  .imgclick div> img {
-   
-    width:150px;
-    gap: 20px;
-    display: block;
-      margin-left: auto;
-      margin-right: auto;
-    
-     
+
+  #book1{
+  
+    width: 300px;
+    height:400px ;
   }
-
-*/
