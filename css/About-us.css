@@ -5,14 +5,10 @@
     height: 200px;
     border: 2px solid rgb(56, 168, 28);
     padding: 10px;
-    
-   
-    
+     
 }
 
 body{
-  
-    width: 1024px;
     margin: auto;
     
 }
@@ -54,12 +50,11 @@ p {
     
 }
 main{
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    position: relative;
+    bottom: 110px
     
 }
-
-/* breeeeeeeeeeeeeak */
 
 h1{
     font-size: ;
@@ -105,7 +100,7 @@ body {
   }
   
   .flip-card-back {
-    background-color:  #7B113A ;
+    background-color:  #6F4C5B ;
     color:whitesmoke;
     transform: rotateY(180deg);
   }
@@ -113,14 +108,100 @@ body {
   
   #Ahmad{
     display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 60px;
+    grid-template-columns: 25% 25% 25%;
+    gap: 70px;
+    margin-left: 200px;
+    
   }
   .mager{
     align-items: center;
+    left: 20px;
 
   }
   .note{
     align-items: center;
-   
+    position: relative;
+    bottom: 80px;
+    left: 20px;
+
   }
+  .first{
+    margin-top: 400px;
+
+  }
+  header{
+    height: 120px;
+    background-color: #724d5d;
+  }
+
+header div {
+  height :120px ;
+  background-size: cover ;
+  background-color: #724d5d;
+ 
+ 
+}
+header a{    
+  cursor :grab ;
+  padding : 15px ;
+  margin-top: 33px;
+  float : right ;
+  font-size : 25px ;
+  font-weight : bolder ;
+  text-decoration : none ;
+  color : black;
+}
+#logo{
+  margin: 20px;
+}
+header h1 {
+  cursor : alias ;
+  color : white ;
+  display: inline-block;
+  font-size: 50px;
+  font-weight : bolder ;
+  padding-bottom: 20px;
+  position: relative;
+ bottom: 25px;
+}
+
+header a:hover {
+  color: white ;
+  background-color : #9E7777 ;
+
+}
+
+footer {    
+  background-color: #6F4C5B ;
+  background-size: cover ;
+  height : 200px ;
+  margin-top: 20px;
+}
+footer section:nth-child(1) {
+  padding-top : 100px ;
+  padding-right : 30px ;
+  float : right ;
+}
+footer section a {
+  cursor :grabbing ;
+  color: rgb(255, 255, 255 , 0.8);
+  text-decoration : none ;
+  font-weight : bolder ;
+  font-size : 16px ;
+  padding : 14px ;
+}
+footer section a:hover {
+  color: white;
+}
+footer section img {
+  padding : 10px ;
+}
+#hr{
+  width: 100%;
+}
+header{
+ padding-bottom: 50px;
+ 
+ 
+}
+  

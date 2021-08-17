@@ -1,9 +1,12 @@
-
+body{
+   width:  100%;
+}
 
 .gridpage{
     display: grid;
-    grid-template-columns:1fr 1fr;
-    gap: 10px;
+    grid-template-columns:auto auto;
+   
+    margin-top: 350px;
     
 }
 
@@ -12,7 +15,7 @@
     border-radius: 50px;
       border: 10px solid rgb(24, 7, 97);
     border-radius: 4px;
-    
+    margin-left: 30px;
     width:300px;
 }
 
@@ -37,28 +40,63 @@ h2{
 }
 
 
-  /*  p {
-        display: block;
-        margin-block-start: 1em;
-        margin-block-end: 1em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-    }
-
-*/
 p{
     padding-top: 10px;
     padding-bottom: 10px;
     justify-content: center;
-    line-height: 30px;
+    line-height: 20px;
     
 }
 
-.pgrid a{
-    padding-bottom: 10px;
-}
 
 .pageimg{
-    width: 300px;
-    height: 350px;
+    width: 500px;
+    height: 500px;
 }
+
+.a-for-pages1:link, a:visited {
+    background-color: #be729c;
+    color: black;
+    border: 2px solid gray;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 150px;
+    position: relative;
+    bottom: 250px;
+  }
+  
+  .a-for-pages1:hover, a:active {
+    background-color: #bd548831;
+    color: black;
+  }
+
+
+  .a-for-pages2:link, a:visited {
+    background-color: #be729c;
+    color: black;
+    border: 2px solid gray;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 150px;
+    position: relative;
+    bottom: 305px;
+    left: 250px;
+  }
+  
+  .a-for-pages2:hover, a:active {
+    background-color: #bd548831;
+    color: black;
+  }
+
+  p{
+border: blue;
+  height: 400px;
+    width: 450px;
+  }
+
+ 
+
