@@ -86,7 +86,7 @@ do
 || one === nine || three === six || five === six || two === nine
 || four === eight || one === six || four === eight || three === seven
 || one === seven || six === seven || three === eight || three === nine
-|| four === nine ) ;
+|| four === nine || four === seven) ;
 
 function author (name , picSrc , book , puplish )
 {
