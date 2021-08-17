@@ -8,20 +8,19 @@ header {
    
    
 }
-header a{
-    
+header a{    
     cursor :grab ;
     padding : 15px ;
     margin-top: 33px;
     float : right ;
-    font-size : 17px ;
+    font-size : 25px ;
     font-weight : bolder ;
-    text-decoration:none;
-    color : #C36A2D;
+    text-decoration : none ;
+    color : black;
 }
 header h1 {
     cursor : alias ;
-    color :#C36A2D ;
+    color : black ;
     display: inline-block;
     font-size: 50px;
     font-weight : bolder ;
@@ -31,14 +30,16 @@ header h1 {
     
 } */
 header a:hover {
-    color: rgb(41, 29, 90);
+    color: blue ;
+    background-color : #9E7777 ;
+
 }
 /* FOOTER */
 footer {    
-    background-color:#C36A2D ;
+    background-color: #6F4C5B ;
     background-size: cover ;
     height : 200px ;
-    margin-top: 50px;
+    margin-top: 200px;
 }
 footer section:nth-child(1) {
     padding-top : 100px ;
@@ -54,25 +55,20 @@ footer section a {
     padding : 14px ;
 }
 footer section a:hover {
-    color: rgb(41, 29, 90);
+    color: blue ;
 }
 footer section img {
     padding : 10px ;
 }
 /* BODY */
 body {
- /*  background-color: #E7DEC8;*/
-
-/* background-color: #D6EFC7;*/
-
     font-family: "Trirong", serif;
     width : 100% ;
- background-color: #e3d18aad;
- margin : auto ;
+    background-color: #e3d18aad;
+    margin : auto ;
 }
 .bigimg{
     position: relative;
     top:50px;
     width: 100%;
 }
-
