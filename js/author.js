@@ -148,7 +148,7 @@ function clickOption(even)
   picB.src = ('./imgAuthor/' + sel + '.jpg') ;
   picB.width = '300' ;
   picB.height = '300' ;
-  picB.style = 'border: 2px solid  #c36a2d ;' + ' border-radius: 180px ;' + ' padding: 12px;' ;
+  picB.style = 'border: 0px solid  #c36a2d ;' + ' border-radius: 80px ;' + ' padding: 12px;' ;
 
   for (let i = 0 ; i < srcimg.length ; i++ )
   {

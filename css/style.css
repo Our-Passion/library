@@ -1,17 +1,21 @@
 
 /***************/
 /* HEADER */
+
 header {
     height : 700px ;
-    /* background-image : url('http://wallpaperstock.net/vintage-library_wallpapers_53408_1600x1200.jpg'); */
     background-size: cover ;
-   
-   
+}
+header div img {
+    padding-top: 20px ;
+    padding-left: 20px ;
+
 }
 header a{    
+
     cursor :grab ;
     padding : 15px ;
-    margin-top: 33px;
+    margin-top: 30px;
     float : right ;
     font-size : 25px ;
     font-weight : bolder ;
@@ -19,6 +23,7 @@ header a{
     color : black;
 }
 header h1 {
+    padding-left: 20px ;
     cursor : alias ;
     color : black ;
     display: inline-block;
