@@ -12,7 +12,7 @@
 }
 
 body{
-    /* background-image: url(https://s3.img-b.com/image/private/t_base,c_pad,f_auto,dpr_2,w_480,h_480/product/shaw/shaw-cs37p-00100-9459802.jpg); */
+  
     width: 1024px;
     margin: auto;
     
@@ -58,3 +58,7 @@ main{
     padding-top: 50px;
     
 }
+ 
+
+  
+  
