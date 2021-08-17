@@ -124,7 +124,7 @@ color : rgb(0, 17, 255) ;
 .authorDetails {
     display : grid ;
     grid-template-columns: auto auto auto;
-    gap : 50px ;
+    gap : 20px ;
 }
 main h3 {
     padding-top: 200px;
@@ -184,7 +184,7 @@ p {
    
 }
 main div {
-    width : 450px ;
+    width : 400px ;
     text-align: center;
     
 }
@@ -202,12 +202,12 @@ button{
     font-weight : bolder ;
     background-color: rgba(255, 255, 255, 0.6);
     color : rgb(0, 0, 0) ;
-    width : 120px ;
+    width : 150px ;
     text-align: center;
     cursor:nw-resize;    
 }
 .one :hover{
-    color: rgb(252, 5, 5) ;
+    color: blue ;
 }
 main form :hover{
 color : rgb(160, 42, 107) ;
@@ -267,8 +267,4 @@ color : rgb(0, 17, 255) ;
   button:hover, a:hover {
     opacity: 0.7;
   }
-body{
-    font-family: "Trirong", serif;
-    width : 1024px ;
-}
 
