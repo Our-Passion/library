@@ -6,17 +6,17 @@ input{
 
 }
 fieldset{
-
-    height:600px;
+    box-shadow: 25px 25px 30px #A19882 ;
+    height:620px;
     width:600px;
     text-align: center;
     align-items: center;
     background-color: #9E7777;
     color : rgb(0, 0, 0) ;
     border: 1px solid rgb(112, 95, 95);
-    margin: auto;
     border-radius: 5px;
-    
+    margin-left: 110px;
+    margin-bottom: 20px;
 }
 #container{
     height:80px;
@@ -41,10 +41,7 @@ input[type=button]{
     border-radius: 5px;
 
 }
-fieldset img{
-    margin-top:40px;
-    float:right;
-}
+
 input[type=submit]:hover{
     background-color:#96BAFF;
     width: 200px;
@@ -60,34 +57,30 @@ input[type=button]:hover{
         background-color:#96BAFF;
         color: blue;
     }
-    #get {
-        padding-top:50px ;
-        max-width: 600px;
-        font-family: arial;
-        height:600px ;
-        width: 600PX;
-        margin-left:460px;
-        margin-top:100px
-      }
-      #se {
+         #se {
         color: grey;
         font-size: 22px;
       }
       main{
-          margin-top: 300px;
+          margin-top: 20px;
       }
       select{
         width: 100px;
         border-radius: 5px;
+        text-align: center;
          }
      select:hover{
          background-color: #96BAFF;
          color: blue;
      }
-     body{
-text-align: center;     }
+     
 
 main h3{
     font-size: 30px;
-    padding-bottom: 100px;
+    margin-left: 110px;
+}
+#row{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 0px;
 }
