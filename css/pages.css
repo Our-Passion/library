@@ -8,18 +8,22 @@
    
     margin-top: 230px;
     width:1100px;
-    margin: 230px auto 0;
+    margin: 30px auto 0;
     
 }
 
 .pageimg{
     border-color: rgb(17, 5, 49);
     border-radius: 50px;
-      border: 10px solid rgb(24, 7, 97);
+      border: 10px solid rgb(97, 19, 61);
     border-radius: 4px;
     margin-left: 30px;
     width:300px;
 }
+
+
+
+
 
 div{
     padding: 10px;
@@ -30,13 +34,14 @@ h1{
    padding-top: 10px;
    padding-bottom: 10px;
     font-size: 35px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:cursive;
 }
 
 h2{
     
     padding-top: 0px;
     padding-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
@@ -46,6 +51,7 @@ h2{
     padding-bottom: 10px;
     justify-content: center;
     line-height: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
 }
 
@@ -56,46 +62,47 @@ h2{
 }
 
 .a-for-pages1:link, a:visited {
-    background-color: #fdeef6;
-    color: whitesmoke;
+    background-color: rgb(97, 19, 61);
+    color: white;
     border: 2px solid gray;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     width: 150px;
-    position: relative;
-    bottom: 88px;
+   
   }
   
   .a-for-pages1:hover, a:active {
     background-color: #bd548831;
-    color: black;
+    color: rgba(10, 0, 7, 0.815);
   }
 
 
   .a-for-pages2:link, a:visited {
-    background-color: #fdeef6;
-    color: black;
+    background-color: #69254a;
+    color: white;
     border: 2px solid gray;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     width: 150px;
-    position: relative;
-    bottom: 31px;
-    left: 250px;
+   
   }
   
   .a-for-pages2:hover, a:active {
-    background-color: #bd548831;
-    color: black;
+    background-color: #eed9e4e8;
+    color: rgba(10, 0, 7, 0.815);
   }
-
+/* 
   .pforpage{
 border: blue;
   height: 400px;
     width: 450px;
-  }
-
+  } */
+/* 
+  .link{
+    position: relative;
+    bottom: 43px;
+  } */
