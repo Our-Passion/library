@@ -106,6 +106,9 @@ main select {
     display : grid ;
     grid-template-columns: auto auto auto;
     gap : 100px ;
+    margin :30px ;
+    margin-left: 100px ;
+    margin-right: 100px ;
 }
 main h3 {
     padding-top: 180px;
@@ -121,7 +124,7 @@ p {
     font-weight : bolder ; 
     letter-spacing: 2px;
     color : rgb(0, 0, 0) ;
-    font-size : 22px ;
+    font-size : 20px ;
     padding : 20px ;  
 }
 main div {
@@ -132,8 +135,7 @@ main div {
 .search {
     cursor :zoom-in ;
     width : 100px ;
-    height : 27px ;
-    
+    height : 27px ;    
 }
 main form select {
     background-color: white ;
