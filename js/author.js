@@ -146,18 +146,19 @@ function clickOption(even)
   let sel = document.getElementById('soption').value ;
   name.textContent = sel ;
   picB.src = ('./imgAuthor/' + sel + '.jpg') ;
-  picB.width = '300' ;
-  picB.height = '300' ;
-  picB.style = 'border: 0px solid  #c36a2d ;' + ' border-radius: 80px ;' + ' padding: 12px;' ;
-
+  picB.width = '370' ;
+  picB.height = '450' ;
+  picB.style = ' border-radius: 20px ;' + 'box-shadow: 25px 25px 35px  #9E7777 ;' ;
   for (let i = 0 ; i < srcimg.length ; i++ )
   {
     if (sel === srcimg[i].split('.')[0])
     {
       info.textContent = 'Book 1. ( ' + book[i].split('.')[0] + ' )'
-      + ' > Published in : ' + puplish[i].split('.')[0] ;
+      + ' Published in : ' + puplish[i].split('.')[0] ;
       info2.textContent = 'Book 2. ( ' + book[i].split('.')[1] + ' )'
-      + ' > Published in : ' + puplish[i].split('.')[1] ;
+      + ' Published in : ' + puplish[i].split('.')[1] ;
+      info.style = 'padding-top: 30px;';
+      info2.style='padding-bottom : 50px' ;
     } }
 }
 // Function Random Number :
