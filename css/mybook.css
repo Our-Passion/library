@@ -1,182 +1,256 @@
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+
+  /* HEADER */
+  header {
+    height :120px ;
+    /* background-image : url('http://wallpaperstock.net/vintage-library_wallpapers_53408_1600x1200.jpg'); */
+    background-size: cover ;
+    background-color: #6F4C5B;
+   
+   
   }
-  
-  body {
-    font: 16px/1.4 'Mulish', sans-serif;
-    color: #333;
-    background: #e3e9ff;
+  header a{    
+    cursor :grab ;
+    padding : 15px ;
+    margin-top: 33px;
+    float : right ;
+    font-size : 25px ;
+    font-weight : bolder ;
+    text-decoration : none ;
+    color : white ;
   }
-  
-  p {
-    margin: 0 0 20px;
+  #logo{
+    margin: 20px;
   }
-  
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  button:focus,
-  input[type="text"]:focus {
-    outline: none;
-  }
-  
-  #wrapper {
-    overflow: hidden;
-    width: 100%;
+  header h1 {
+    cursor : alias ;
+    color : white ;
+    display: inline-block;
+    font-size: 50px;
+    font-weight : bolder ;
+    padding-bottom: 20px;
     position: relative;
+   bottom: 25px;
   }
+  /* header img {
+    padding-left: 5px ;
+    
+  } */
+  header a:hover {
+    color: white ;
+    background-color : #9E7777 ;
   
-  .suggestion {
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 5px 5px 20px -5px rgba(0, 0, 0, 0.2);
-    margin: 50px auto;
-    max-width: 800px;
   }
-  
-  /* header */
-  #header {
-    background: black;
-    color: #fff;
-    padding: 20px 30px;
-    border-radius: 5px 5px 0 0;
+  /* FOOTER */
+  footer {    
+    padding-top: 10px ;
+    background-color: #6F4C5B ;
+    background-size: cover ;
+    height : 120px ;
+    text-align: center ;
   }
-  
-  #header h1 {
-    font-size: 24px;
-    font-weight: 400;
+  footer p {
+    color : white ;
   }
-  
- 
-  .main {
-    padding: 30px;
+  footer section a {
+    cursor :grabbing ;
+    color: rgb(255, 255, 255 , 0.8);
+    text-decoration : none ;
+    font-weight : bolder ;
   }
-  
-  
-  #suggestForm {
-    position: relative;
-    margin: 0 0 20px;
+  footer p:hover {
+    color: white ;
   }
-  
-  #suggestForm input {
-    border: 1px solid #eee;
-    padding: 10px 100px 10px 10px;
-    width: 100%;
-    height: 50px;
-    font: 16px/1.4 'Mulish', sans-serif;
-    color: #333;
+  footer section img {
+    padding : 7px ;
   }
-  
-  #suggestForm button {
-    padding: 0 1em;
-    font: 16px/1.4 'Mulish', sans-serif;
-    background: rgb(8, 0, 0);
-    color: #fff;
-    border-radius: 0;
-    border: 0;
-    cursor: pointer;
-    position: absolute;
-    right: 5px;
-    top: 5px;
-    height: 40px;
-    transition: opacity 0.3s linear;
-  }
-  
-  #suggestForm button:hover {
-    opacity: 0.7;
-  }
-  
-  .showHide {
-    margin: 0 0 20px;
-  }
-  
-  .showHide input[type="checkbox"] {
-    margin: 0 0 0 5px;
-  }
-  
-  #suggestedList li {
-    padding: 20px;
-    margin: 0 0 10px;
-    border-radius: .2em;
-    border: 1px solid #eee;
-  }
-  
-  #suggestedList li span,
-  #suggestedList li input[type="text"] {
-    font: 20px/1.4 'Mulish', sans-serif;
-    margin: 0 0 5px;
-    display: block;
-  }
-  
-  #suggestedList li input[type="text"] {
-    border: 1px solid #eee;
-    padding: 10px 100px 10px 10px;
-    width: 100%;
-    height: 50px;
-    color: #333;
-  }
-  
-  #suggestedList li label {
-    font-size: 14px;
-    display: block;
-    margin: 0 0 10px;
-    color: rgba(112, 112, 112, .55);
-  }
-  
-  #suggestedList li label input[type="checkbox"] {
-    margin: 0 0 0 5px;
-  }
-  
-  #suggestedList li button {
-    font-size: 14px;
-    margin: 0 5px 0 0;
-    border-radius: 3px;
-    padding: 5px 10px;
-    color: white;
-    background: rgb(202, 235, 245);
-    border: 0;
-    cursor: pointer;
-    transition: opacity 0.3s linear;
-  }
-  
-  #suggestedList li button:last-child {
-    background: #2dbae6;
-  }
-  
-  #suggestedList li button:hover {
-    opacity: 0.7;
-  }
-  
-  #sugesstedList li.Avelable {
-    transition: 0.4s;
-    border-color: rgb(7, 1, 1)f;
-  }
-  
-  #sugesstedList li.Avelable label,
-  #sugesstedList li.Avelable span {
-    transition: 0.4s;
-    color: rgb(8, 1, 1);
-  }
-  
- 
-  
-  
-    #header h1 {
-      font-size: 20px;
+    body {
+      font: 16px/1.4 'Mulish', sans-serif;
+      color: #333;
     }
+    
+    p {
+      margin: 0 0 20px;
   
+    }
+    
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    button:focus,
+    input[type="text"]:focus {
+      outline: none;
+    }
+    
+    #wrapper {
+      overflow: hidden;
+      width: 100%;
+      position: relative;
+    }
+    
+    .suggestion {
+      background: #6F4C5B;
+      border-radius: 5px;
+      box-shadow: 5px 5px 20px -5px rgba(0, 0, 0, 0.2);
+      margin: 30px auto ;
+      max-width: 800px;
+    }
+    
+    /* header */
+    /* #header {
+      background: black;
+      color: #fff;
+      padding: 20px 30px;
+      border-radius: 5px 5px 0 0;
+    }
+    
+    #header h1 {
+      font-size: 24px;
+      font-weight: 400;
+    } */
+    
+    #main1{
+      background-image: url("https://techtiptrick.com/wp-content/uploads/2020/06/Online-Sites-to-Publish-Your-Books-for-Free.jpg");
+  
+    }
+   
+    .main {
+      padding: 30px;
+    }
+    
+    
+    #suggestForm {
+      position: relative;
+      margin: 0 0 20px;
+      background-color: rgb(112, 95, 95);
+    }
+    
+    #suggestForm input {
+      border: 1px solid #eee;
+      padding: 10px 100px 10px 10px;
+      width: 85%;
+      height: 50px;
+      font: 16px/1.4 'Mulish', sans-serif;
+      color: #333;
+    }
+    
+    #suggestForm button {
+      padding: 0 1em;
+      font: 16px/1.4 'Mulish', sans-serif;
+      background: rgb(112, 95, 95);
+      color: white;
+      border-radius: 0;
+      border: 0;
+      cursor: pointer;
+      position: absolute;
+      right: 5px;
+      top: 10px;
+      height: 50px;
+      transition: opacity 0.3s linear;
+    }
+    
+    #suggestForm button:hover {
+      opacity: 0.7;
+      
+    }
+    
+    .showHide {
+      margin: 0 0 20px;
+      color: white;
+      font-size: 20px;
+  
+    }
+    
+    .showHide input[type="checkbox"] {
+      margin: 0 0 0 5px;
+    }
+    
+    #suggestedList li {
+      padding: 20px;
+      margin: 0 0 10px;
+      border-radius: .2em;
+      border: 1px solid #eee;
+      background-color: white;
+    }
+    
     #suggestedList li span,
     #suggestedList li input[type="text"] {
-      font-size: 16px;
+      font: 20px/1.4 'Mulish', sans-serif;
+      margin: 0 0 5px;
+      display: block;
+    
     }
-  
+    
+    #suggestedList li input[type="text"] {
+      border: 1px solid #eee;
+      padding: 10px 100px 10px 10px;
+      width: 100%;
+      height: 50px;
+      color: #333;
+      font-size: 50px ;
+    }
+    
+    #suggestedList li label {
+      font-size: 14px;
+      display: block;
+      margin: 0 0 10px;
+      color: rgba(112, 112, 112, .55);
+    }
+    
+    #suggestedList li label input[type="checkbox"] {
+      margin: 0 0 0 5px;
+    }
+    
     #suggestedList li button {
-      font-size: 12px;
+      font-size: 14px;
+      margin: 0 5px 0 0;
+      border-radius: 3px;
+      padding: 5px 10px;
+      color: white;
+      background: rgba(150,105,105);
+      border: 0;
+      cursor: pointer;
+      transition: opacity 0.3s linear;
     }
-  }
+    
+    #suggestedList li button:last-child {
+      background: rgba(112,95,95);
+    }
+    
+    /* #suggestedList li button:hover {
+      opacity: 0.7;
+    } */
+    
+    #sugesstedList li.Avelable {
+      transition: 0.4s;
+      border-color: rgb(7, 1, 1)f;
+    }
+    
+    #sugesstedList li.Avelable label,
+    #sugesstedList li.Avelable span {
+      transition: 0.4s;
+      color: rgb(8, 1, 1);
+      font-size: 50px ;
+    }
+    
+   
+    
+    
+      /* #header h1 {
+        font-size: 20px; */
+      
+    
+      #suggestedList li span,
+      #suggestedList li input[type="text"] {
+        font-size: 25px;
+        width: 85%;
+      }
+    
+      #suggestedList li button {
+        font-size: 20px;
+      }
+    
+  
