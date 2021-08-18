@@ -106,3 +106,7 @@ border: blue;
     position: relative;
     bottom: 43px;
   } */
+  footer p {
+    color: white;
+    margin-top: 32px;
+}
