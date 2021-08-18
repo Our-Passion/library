@@ -39,7 +39,7 @@ function render (x,firstName, lastName ){
 
   if (x === 'novel'){
 
-    getget.style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);padding-top:50px;max-width: 600px;font-family:arial;height:570px;width: 600PX;padding-left: 200px;margin-bottom: 30px;";
+    getget.style=" box-shadow: 25px 25px 30px #A19882;padding-top:50px;max-width: 600px;font-family:arial;height:570px;width: 500PX;padding-left: 100px;margin-bottom: 30px;    background-color: #9E7777;    border-radius: 5px;";
     getimg.style="height: 450px;width: 400px;";
 
     swal({
@@ -52,7 +52,7 @@ function render (x,firstName, lastName ){
     getimg.src = './img/Practical-Magic.jpg';
   }
   if (x === 'story'){
-    getget.style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);padding-top:50px;max-width: 600px;font-family:arial;height:570px;width: 600PX;padding-left: 200px;margin-bottom: 30px;";
+    getget.style=" box-shadow: 25px 25px 30px #A19882;padding-top:50px;max-width: 600px;font-family:arial;height:570px;width: 500PX;padding-left: 100px;margin-bottom: 30px;    background-color: #9E7777;    border-radius: 5px;";
     getimg.style="height: 450px;width: 400px;";
 
     swal({
@@ -64,7 +64,7 @@ function render (x,firstName, lastName ){
     getimg.src = './img/The-World-That-We-Knew.jpg';
   }
   if (x === 'crime'){
-    getget.style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);padding-top:50px;max-width: 600px;font-family:arial;height:570px;width: 600PX;padding-left: 200px;margin-bottom: 30px;";
+    getget.style=" box-shadow: 25px 25px 30px #A19882;padding-top:50px;max-width: 600px;font-family:arial;height:570px;width: 500PX;padding-left: 100px;margin-bottom: 30px;    background-color: #9E7777;    border-radius: 5px;";
     getimg.style="height: 450px;width: 400px;";
 
     swal({
@@ -77,7 +77,7 @@ function render (x,firstName, lastName ){
   }
 
   if (x === 'challenge'){
-    getget.style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);padding-top:50px;max-width: 600px;font-family:arial;height:570px;width: 600PX;padding-left: 200px;margin-bottom: 30px;";
+    getget.style=" box-shadow: 25px 25px 30px #A19882;padding-top:50px;max-width: 600px;font-family:arial;height:570px;width: 500PX;padding-left: 100px;margin-bottom: 30px;    background-color: #9E7777;    border-radius: 5px;";
     getimg.style="height: 450px;width: 400px;";
 
     swal({
