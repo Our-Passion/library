@@ -23,18 +23,11 @@ As a user, I'd like to see all authors on the author page, what books are in thi
 - Create a place for each author with a small picture and a beautiful appearance, under which his name is located. /When you click on Details , his books and the date of publication appear.
 - The order of the authors on the page must be variable, it must not be in a fixed location
 
-## User Story3
-
- **Table Books page**
- As a user , I would like to see all books in a table behind its author name , and I can rate the book if I liked it .
- **Feature Tasks:**
- - ability to see the book and its author
- - The ability to rate each book within the table
  
 
-## User Story4
+## User Story3
 
-**Suggestions page**
+**Pick a book**
 As a user i would like to get something to help me to find book related to my interests instead of check all the catalog .
 
  **Feature Tasks:**
@@ -47,13 +40,27 @@ As a user i would like to get something to help me to find book related to my in
 **Acceptance Tests:**
 Ensure that the user put number in spacific range
 
-## User Story5
+## User Story4
 **about us page**
 
 As a user, I would like to see the team members who made this amazing website, so I can contact with them in the future if I want to build a website like this one .
 
 ## User Story5
- **My books page**
+ **Suggestions page**
  As a user, I would like to add my favorite books 
+ 
+ 
+ ### Team Members 
+ 
+ * Duha Abu-Ghazleh
+ * Muhammad Wrekat
+ * Ahmad Murad
+ * Mu'nes Yasin
+ * Maram Elayyan
+ * Ehab Al-shrida
+ 
+ 
+ 
+ 
  
 
