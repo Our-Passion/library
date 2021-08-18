@@ -4,7 +4,7 @@ let getpar = document.getElementById('par');
 let getimg = document.getElementById('img');
 let geta = document.getElementById('se');
 let getget = document.getElementById('get');
-
+//
 getform.addEventListener('submit', showRec);
 function showRec (event){
   event.preventDefault();
