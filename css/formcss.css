@@ -1,3 +1,4 @@
+
 input{
     height:50px;
     width:300px;
@@ -23,6 +24,11 @@ fieldset{
    padding-top: 20px;
    font-size: 30px;
 }
+footer{
+    font-size: 20px;
+    align-items: center;
+    padding-top:50px;
+}
 
 #sub{
     width: 200px;
@@ -32,7 +38,7 @@ fieldset{
 }
 input[type=submit]{
     width: 150px;
-    margin-left: 140px;
+    margin-left: 145px;
     border-radius: 5px;
 
 }
@@ -84,3 +90,5 @@ main h3{
     grid-template-columns: auto auto;
     gap: 0px;
 }
+
+

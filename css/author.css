@@ -94,21 +94,17 @@ main select {
     font-weight : bolder ;
     font-size: 30px ;
     color : rgb(0, 0, 0) ;
-/*    text-decoration:underline;*/
 }
 .searchS h2 {
 
     color : rgb(0, 0, 0) ;
     font-size : 30px ;
 }
-
 .authorDetails {
     display : grid ;
     grid-template-columns: auto auto auto;
     gap : 100px ;
     margin :30px ;
-    margin-left: 100px ;
-    margin-right: 100px ;
 }
 main h3 {
     padding-top: 180px;
@@ -141,7 +137,6 @@ main form select {
     background-color: white ;
     color : rgb(0, 0, 0) ;
 }
-
 .one :hover{
     color: blue ;
 }
@@ -157,19 +152,12 @@ color : blue ;
 .searchS ul:hover {
     color : rgb(47, 16, 223) ;
 }
-/* .one img {
-    border: 2px solid rgb(56, 168, 28);
-    border-radius: 90px;
-    padding: 12px;
-} */
-
 .one li{
     padding-top : 15px ;
     font-size : 17px ;
     color : rgb(2, 2, 2) ;
     font-weight : bolder ;
 }
-
 .one {
     box-shadow: 20px 10px 20px #9E7777 ;
     width: 85%;
