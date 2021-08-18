@@ -3,7 +3,7 @@ header {
   height :120px ;
   /* background-image : url('http://wallpaperstock.net/vintage-library_wallpapers_53408_1600x1200.jpg'); */
   background-size: cover ;
-  background-color: #6F4C5B;
+  background-color: white;
  
  
 }
@@ -15,14 +15,14 @@ header a{
   font-size : 25px ;
   font-weight : bolder ;
   text-decoration : none ;
-  color : white ;
+  color : black ;
 }
 #logo{
   margin: 20px;
 }
 header h1 {
   cursor : alias ;
-  color : white ;
+  color : black ;
   display: inline-block;
   font-size: 50px;
   font-weight : bolder ;
